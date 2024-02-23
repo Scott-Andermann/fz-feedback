@@ -1,6 +1,4 @@
-import React from "react";
 import Input from "../Components/Input";
-import NavBar from "../Components/NavBar";
 import Wrapper from "../Components/Wrapper";
 import Button from "../Components/Button";
 
