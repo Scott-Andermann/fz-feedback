@@ -4,9 +4,9 @@ import Button from "../Components/Button";
 
 const Register = () => {
     return ( 
-        <Wrapper>
-            <div className="text-black w-full h-[600px] from-slate-900 to-green-950 bg-gradient-to-b flex flex-col justify-center items-center">
-                <div className="w-2/3 flex flex-col gap-4">
+        <Wrapper navBar={false}>
+            <div className="text-black w-full min-h-screen from-slate-900 to-green-950 bg-gradient-to-b flex flex-col justify-center items-center">
+                <div className="flex flex-col gap-4 w-full">
                     <Input label="Email" />
                     <Input label="Enter Password" />
                     <Input label="Re-Enter Password" />
