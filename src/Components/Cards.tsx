@@ -10,7 +10,7 @@ const Cards = () => {
                         <h5 className={headingClasses}>Job History</h5>
                     </div>
                 </a>
-                <a className={linkClasses} href="#">
+                <a className={linkClasses} href="/profile">
                     <div className={cardClasses}>
                         <h5 className={headingClasses}>Technician Profile</h5>
                     </div>

@@ -11,6 +11,8 @@ import History from './routes/History'
 import New from './routes/New'
 import Recording from './routes/Recording'
 import PostJob from './routes/PostJob'
+import Profile from './routes/Profile'
+import ProfileProps from './routes/ProfileProps'
 
 const router = createBrowserRouter([{
   path: "/",
@@ -44,7 +46,14 @@ const router = createBrowserRouter([{
   path: "/postJob",
   element: <PostJob />
 },
-
+{
+  path: "/profile",
+  element: <Profile />
+},
+{
+  path: "/editProfile/:forwardLink",
+  element: <ProfileProps />
+},
 ])
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

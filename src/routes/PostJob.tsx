@@ -12,6 +12,7 @@ const PostJob = () => {
             <RecordingProperty label="Total Output" value="2.5" />
             <RecordingProperty label="Time Spraying" value="0:25:14"/>
             <RecordingProperty label="Total Time" value="0:43:12"/>
+            <Button link="/recording" text="Resume" />
             <Button link="/home" text="Save Job" />
             <Button link="/home" text="Discard Job" />
         </div>

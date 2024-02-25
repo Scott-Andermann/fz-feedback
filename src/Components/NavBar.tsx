@@ -7,7 +7,7 @@ const NavBar = () => {
             <a href="/home" className={linkClasses}>Home</a>
             <a href="/history" className={linkClasses}>History</a>
             <a href="/new" className={linkClasses}>New</a>
-            <a href="#" className={linkClasses}>Profile</a>
+            <a href="/profile" className={linkClasses}>Profile</a>
             <a href="#" className={linkClasses}>Settings</a>
         </div>
      );
