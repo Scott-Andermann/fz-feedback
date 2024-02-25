@@ -5,7 +5,7 @@ import Cards from "../Components/Cards";
 const Home = () => {
     return ( 
         <Wrapper>
-            <NavBar />
+            <NavBar activeTab="home"/>
             <h2>Welcome, User</h2>
             <div className="flex flex-col">
                 <h3>Latest</h3>

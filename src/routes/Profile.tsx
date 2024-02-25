@@ -15,7 +15,7 @@ const Profile = () => {
             <RecordingProperty label="Company" value="Pest Control Plus"/>
             <Button text="Edit Profile" link="/editProfile/profile" />
         </div>   
-        <NavBar />
+        <NavBar activeTab="profile"/>
     </Wrapper>
      );
 }

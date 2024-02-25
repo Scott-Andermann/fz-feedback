@@ -8,9 +8,6 @@ import Modal from "../Components/Modal";
 const History = () => {
     const [showModal, setShowModal] = useState<number | null>(null);
 
-    console.log(showModal);
-    
-    
     return ( 
         <Wrapper>  
             <h2>Job History</h2>
@@ -25,7 +22,7 @@ const History = () => {
                     setShowModal={setShowModal}
                     />
                 )})}
-            <NavBar />
+            <NavBar activeTab="history"/>
             {showModal ? 
                 <Modal showModal={showModal} setShowModal={setShowModal} />
              : null}

@@ -11,18 +11,17 @@ const New = () => {
     }
 
     return ( 
-        <Wrapper>            
+        <Wrapper> 
+            <NavBar activeTab="new"/>
             {isConnected ? (
                 <>
                     <h2 className="text-center">Sprayer connected, tap below to start recording</h2>
                     <Button text="Start Recording" link="/recording" />
-                    <NavBar />
                 </>
             ) : (
                 <>
                     <h2 className="text-center">Connect to sprayer to start tracking your jobs</h2>
                     <Button text="Connect Sprayer" onClick={handleClick} />
-                    <NavBar />
                 </>
             )}
         </Wrapper>

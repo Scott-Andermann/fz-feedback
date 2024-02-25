@@ -1,4 +1,14 @@
-const jobData = [
+export type JobDataProps = {
+    date: string;
+    totalTime: string;
+    sprayingTime: string;
+    name: string;
+    volumeSprayed: number;
+    avgFlowRate: number;
+    id: number;
+}
+
+const jobData: JobDataProps[] = [
     {
         date: "4-10-2023",
         totalTime: "26:20",
@@ -51,7 +61,7 @@ const jobData = [
         name: "1 Plant Ct",
         volumeSprayed: 5.86,
         avgFlowRate: 0.52,
-        id: 192
+        id: 19
     },   
     {
         date: "4-9-2023",
@@ -60,7 +70,7 @@ const jobData = [
         name: "530 Fairview Rd",
         volumeSprayed: 2.86,
         avgFlowRate: 0.52,
-        id: 192
+        id: 20
     },   
     {
         date: "4-9-2023",
@@ -69,7 +79,7 @@ const jobData = [
         name: "420 Randolph Rd",
         volumeSprayed: 2.86,
         avgFlowRate: 0.52,
-        id: 192
+        id: 22
     },   
 ];
 

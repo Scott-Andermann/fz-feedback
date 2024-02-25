@@ -13,7 +13,7 @@ const Recording = () => {
             <RecordingProperty label="Total Time" value="0:43:12"/>
             <Button text="Stop Recording" link="/postJob" />
         </div>    
-        <NavBar />
+        <NavBar activeTab="new"/>
     </Wrapper>
      );
 }
